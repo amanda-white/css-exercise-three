@@ -31,6 +31,11 @@ h3 {
   font-size: 8px;
 }
 
+div:link { color:#0070BB; } /* unvisited */
+div:visited{ color:#0070BA; } /* visited */
+div:hover { color:#0070BC; } /* mouse over */
+div:active { color:#0070BD; } /* selected */
+
 .content {
   padding: 10px;
   width: 85%;
